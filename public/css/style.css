@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Khand:wght@300;400;500;600;700&family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Khand", sans-serif;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: white;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #141C26;
+}
+
+header {
+    background: linear-gradient(to right,#cdd9731a, rgba(214, 200, 186, 0.068));
+    height: 110px;
+    transition: all .5s ease-in-out;
+    top:0;
+    width: 100%;
+}
+
+header img {
+    width: 17%;
+}
+
+header li, header
+a {
+    text-decoration: none;
+    list-style: none;
+    padding: 30px;
+    color: rgb(12, 7, 7);
+}
+
+.flexLogo {
+    display: flex;
+}
+
+header h1 {
+    padding: 20px;
+    font-size: 36px;
+}
+
+header ul {
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    background: url('/public/img/') center/cover no-repeat;
+    height: 70vh;
+    position: relative;
+    top: 0;
+}
