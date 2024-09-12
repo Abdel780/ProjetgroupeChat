@@ -23,7 +23,7 @@
             <ul>
                 <li><a href="">Accueil</a></li>
                 <li><a href="">Nourriture</a></li>
-                <li><a href="">Jouets</a></li>
+                <li><a href="jouets.php">Jouets</a></li>
                 <li><a href="">Accessoires</a></li>
                 <li><a href="">Qui sommes-nous</a></li>
             </ul>
